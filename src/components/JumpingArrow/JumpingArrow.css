@@ -1,0 +1,28 @@
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    color: darkorange;
+    left: calc(50% - 4*12pt);
+    top: calc(80%);
+    animation: jump 2s ease-in-out 0s infinite forwards;
+}
+
+.arrow h3 {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+.arrow i {
+    font-size: 3em;
+}
+
+@keyframes jump {
+    0% {transform: translateY(20px)}
+    50% {transform: translateY(-20px)}
+    100% {transform: translateY(20px)}
+}

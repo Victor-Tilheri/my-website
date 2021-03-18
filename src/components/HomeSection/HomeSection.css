@@ -1,0 +1,66 @@
+.home-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/bg3.png');
+    /* background-color: #151515; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box {
+    margin-bottom: 100px;
+}
+
+.first-line {
+    font-size: 16pt;
+    font-weight: 500;
+    color: white;
+}
+
+.first-line b {
+    color: darkorange;
+    font-weight: 700;
+}
+
+.second-line {
+    margin-top: -10px;
+    font-size: 14pt;
+    font-weight: 100;
+    font-style: italic;
+    color: white;
+}
+
+.download-cv-btn {
+    width: 150px;
+    height: 40px;
+    font-size: 12pt;
+    font-weight: 500;
+    color: white;
+    background-color: darkorange;
+    border: none;
+}
+
+/* Desktop */
+@media (min-width: 1000px) {
+    .first-line {
+        font-size: 2em;
+    }
+    .second-line {
+        font-size: 1.8em;
+    }
+    .download-cv-btn {
+        width: 200px;
+        height: 40px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+    .download-cv-btn:hover {
+        /* background-color: darkorange; */
+        /* color: darkorange;
+        border: 2px solid darkorange; */
+        box-shadow: 3px 3px 3px -2px black;
+    }
+}
