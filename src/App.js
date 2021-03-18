@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      {/* <SplashScreen/> */}
+      <SplashScreen/>
       <JumpingArrow/>
       <HomeSection/>
       <AboutSection/>

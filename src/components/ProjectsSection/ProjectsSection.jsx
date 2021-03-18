@@ -28,7 +28,9 @@ function ProjectsSection() {
                     // projectDemo="#"
                     projectGithub="https://github.com/Victor-Tilheri/DrawIT"
                 />
-            <h1>Veja mais em meu GitHub</h1>
+            <a href="https://github.com/Victor-Tilheri/" target="_blank" alt="github link">
+                <h1>Veja mais em meu GitHub</h1>
+            </a>
             </div>
         </section>
     )

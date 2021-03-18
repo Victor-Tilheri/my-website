@@ -13,7 +13,7 @@
     "web-vitals": "^1.0.1"
   },
   
-  "homepage": "https://victortilheri.com.br",
+  "homepage": ".",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
